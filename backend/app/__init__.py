@@ -44,4 +44,8 @@ def create_app():
     app.register_blueprint(payment_tracking.bp)
     app.register_blueprint(attendance.bp)
 
+    # Start custom scheduled tasks
+    from .utils.scheduler import setup_scheduler
+    setup_scheduler()
+
     return app
