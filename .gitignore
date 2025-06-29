@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.log
+
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Firebase
+.firebase/
+firebase.json
+.firebaserc
+
+# Misc
+*.DS_Store
